@@ -34,6 +34,9 @@
   .card {
     flex: 0 0 auto;
   }
+   &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 #roundcorners {
