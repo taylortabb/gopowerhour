@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Style is Skeleton CSS. Build tracker by Taylor Tabb '18 '19 [http://tabb.me]. -->
+
+
+  <!-- Basic Page Needs | You can replace your description and name with your description and name. The description may show up in search results.
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+
+  <!-- Mobile Specific Metas | Ensures the site looks good on mobile
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- FONT | To pick a new font, head to https://fonts.google.com/
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS | These are the stylesheets that make this site look as it does
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="build-app/css/normalize.css">
+    <link rel="stylesheet" href="build-app/css/skeleton.css">
+
+
+  <!-- Favicon | This is the little icon that shows up above the URL bar and in bookmarks
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="build-app/image/png" href="build-app/images/favicon.png">
+    <link rel="apple-touch-icon" href="build-app/images/custom_icon.png">
+
+    <!-- Google Analytics to taylor -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74339615-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-74339615-3');
+    </script>
+
+  </head>
+  <style>
+
+    .full {
+      width: 100%;
+    }
+
+    .done {
+      /*  text-decoration: line-through;*/
+    }
+
+    .collapsible {
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+    }
+
+    .active, .collapsible:hover {
+      /*  background-color: #555;*/
+    }
+
+    .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+  </style>
+  <body>
+
+
+  <!-- Primary Page Layout | This is for you to edit! Replace Moana's info with yours :)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div class="container" style="padding: 10%">
+      <div class="row">
+        <div class="twelve columns">
+          <div class="four columns offset-by-four">
+            <h1> PowerHour </h1>
+            <h5> Put your time to work </h5>
+            <h6> Input your salary to see what just 1 hour of your time can do </h6>
+
+            <form>
+              <input type="text" id="fname" name="fname"><br>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" checked>  Annually
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio"> Hourly
+              </label>
+
+              <div class="scrolling-wrapper-flexbox">
+
+                <div class="card"><h4 id="roundcorners">Groceries for a family of three.</h4></div>
+                <div class="card"><h4 id="roundcorners">600 trees in downtown parks</h4></div>
+                <div class="card"><h4 id="roundcorners">Seve very small, very angry dolphins need therapy</h4></div>
+                <div class="card"><h4 id="roundcorners">Foster puppies</h4></div>
+
+                <div class="card">  </div>
+                <div class="card">  </div>
+
+              </div>
+
+            </form>
+
+
+          </div>
+        </div>
+        <br>  
+      </div>
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
